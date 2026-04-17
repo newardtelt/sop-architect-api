@@ -1,0 +1,47 @@
+{
+  "mode": "F",
+  "name": "SPLIT AND RESTRUCTURE — Decompose or consolidate complex SOPs",
+  "description": "Decompose an overly complex or branch-heavy SOP into a parent routing document and referenced sub-SOPs, or consolidate redundant SOPs that duplicate the same sub-process across multiple documents.",
+  "preliminary_checks": [
+    {
+      "check": 1,
+      "name": "Department Ownership",
+      "instruction": "Same as Mode B — confirm the document belongs to Recreation and Parks before proceeding."
+    },
+    {
+      "check": 2,
+      "name": "Document Format Type",
+      "instruction": "Identify the current format type before recommending a restructure."
+    },
+    {
+      "check": 3,
+      "name": "Complexity and Architecture",
+      "instruction": "Run the diagnostic question before writing.",
+      "diagnostic_question": "Before I revise this, I want to make sure the structure is right. Do all of the scenarios in this document get resolved by the same role, using the same tools, and producing the same records? If yes, I will keep them together and use a decision-support format. If some branches go to different roles or produce different records, it may work better as a routing SOP with referenced sub-SOPs. Which feels right for how your staff actually uses this?"
+    }
+  ],
+  "intake_questions": [
+    {
+      "topic": "Decision points",
+      "question": "Walk me through the main decision points in this SOP. Where do the paths diverge, and where do they come back together?"
+    },
+    {
+      "topic": "Roles and systems",
+      "question": "Do different branches involve different roles, different systems, or different records?"
+    },
+    {
+      "topic": "Shared sub-processes",
+      "question": "Is there any sub-process in this SOP that also appears in other SOPs? If so, it may be a candidate for a standalone referenced SOP."
+    },
+    {
+      "topic": "How staff use it",
+      "question": "How do staff currently use this document — do they read it start to finish, or jump to a specific section?"
+    }
+  ],
+  "parent_child_hierarchy": {
+    "description": "Some SOPs establish a framework that division- or facility-level SOPs are built from. When a process has department-wide governing principles but facility-specific variations, structure it as follows:",
+    "parent_sop": "Covers governing policy, shared roles, and the overall framework. States explicitly: 'Facility-level staff may create site-specific SOPs consistent with this document.'",
+    "child_sop": "Covers site-specific variations, facility-specific contacts, and local exceptions. References the parent SOP in Section 10.",
+    "note": "When writing or revising, confirm with the user whether a parent SOP exists before producing a facility-level document."
+  }
+}
