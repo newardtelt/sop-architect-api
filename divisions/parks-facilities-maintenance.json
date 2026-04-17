@@ -1,0 +1,167 @@
+{
+  "division": "Parks and Facilities Maintenance Division",
+  "areas": [
+    {
+      "name": "Parks Operations and Athletic Field Services",
+      "cost_centers": ["Park Maintenance Services", "Athletic Field Services", "Administration and Support"],
+      "key_roles": [
+        "Parks Services Managers",
+        "Athletic Fields Crew Supervisor",
+        "Parks Crew Supervisors (East and West)",
+        "Maintenance Workers",
+        "Groundskeepers",
+        "Parks Equipment Mechanic"
+      ],
+      "context": "The division maintains 66 city parks covering more than 1,000 acres, including athletic fields, courts, playgrounds, shelters, and open space.",
+      "common_processes": [
+        "Playground and park safety inspections",
+        "Mowing and groundskeeping schedules",
+        "Athletic field preparation and lining",
+        "Shelter maintenance",
+        "Park closure and reopening protocols",
+        "Work order submission"
+      ],
+      "key_considerations": [
+        "Playground safety inspection standards [VERIFY BEFORE PUBLISHING]",
+        "Weather hold and closure protocols",
+        "ADA pathway maintenance",
+        "Public notification of closures",
+        "Contractor oversight"
+      ],
+      "format_note": "Weather and emergency closure decisions are Format Type 2."
+    },
+    {
+      "name": "Facilities Maintenance Services",
+      "cost_centers": ["Facilities Maintenance Services"],
+      "key_roles": [
+        "Facilities Property Manager",
+        "Facilities Engineer Supervisor",
+        "Facilities Engineers",
+        "Custodial Crew Supervisors",
+        "Facilities Maintenance Crew Supervisor",
+        "Tradesworkers",
+        "Maintenance Workers"
+      ],
+      "context": "The division maintains all city facilities — community centers, recreation centers, parks buildings, and administrative facilities. A new Enterprise Asset Management system is being implemented.",
+      "common_processes": [
+        "Preventive maintenance scheduling and tracking",
+        "Work order intake and assignment",
+        "HVAC inspection",
+        "Roof inspection reports",
+        "Building safety inspections",
+        "Contractor coordination",
+        "After-hours emergency response",
+        "Custodial inspection and quality checks"
+      ],
+      "key_considerations": [
+        "City safety and risk management requirements [VERIFY BEFORE PUBLISHING]",
+        "OSHA general industry standards for tradesworkers [VERIFY BEFORE PUBLISHING]",
+        "Contractor insurance and bonding [VERIFY BEFORE PUBLISHING — confirm with City Procurement]",
+        "Chemical storage",
+        "Key and access control coordination with facility supervisors"
+      ]
+    },
+    {
+      "name": "Urban Forestry Maintenance",
+      "cost_centers": ["Urban Forestry Maintenance"],
+      "key_roles": [
+        "City Forester",
+        "Forestry Crew Supervisor",
+        "Tree Climbers",
+        "Sanitation Operator"
+      ],
+      "context": "Manages all city street trees and park trees. Rockville maintains Tree City USA status. The City maintains thousands of street trees across all neighborhoods.",
+      "common_processes": [
+        "Annual pruning schedule development and execution",
+        "Hazardous tree assessment and removal authorization",
+        "Tree planting coordination",
+        "Forestry job briefings",
+        "811 call-before-you-dig coordination [VERIFY BEFORE PUBLISHING]",
+        "Emergency storm response",
+        "Contractor oversight",
+        "GIS tree inventory updates"
+      ],
+      "key_considerations": [
+        "ISA certified arborist practices [VERIFY BEFORE PUBLISHING]",
+        "ANSI A300 pruning standards [VERIFY BEFORE PUBLISHING]",
+        "Maryland Forest Service requirements [VERIFY BEFORE PUBLISHING]",
+        "Tree protection during construction",
+        "Public notification for street tree removal"
+      ],
+      "format_note": "Emergency storm response is Format Type 2 (Decision-Support)."
+    },
+    {
+      "name": "Horticultural Services",
+      "cost_centers": ["Horticultural Services"],
+      "key_roles": [
+        "City Horticulturist",
+        "Horticulture Crew Supervisor",
+        "Maintenance Workers"
+      ],
+      "context": "Staff plan and maintain seasonal flower and bulb displays at locations throughout the city. Horticultural staff also coordinate with Croydon Creek on the Native Plant Sale.",
+      "common_processes": [
+        "Annual planting schedules by location",
+        "Bulb ordering and storage",
+        "Seasonal display installation and removal",
+        "Irrigation startup and winterization",
+        "Pesticide and fertilizer application",
+        "Plant health assessment",
+        "Weed management"
+      ],
+      "key_considerations": [
+        "Maryland pesticide applicator license requirements [VERIFY BEFORE PUBLISHING — contact Maryland Department of Agriculture]",
+        "Chemical storage and disposal [VERIFY BEFORE PUBLISHING]",
+        "Integrated pest management (IPM) protocols"
+      ]
+    },
+    {
+      "name": "Trails and Open Space Services",
+      "cost_centers": ["Trails and Open Space Services"],
+      "key_roles": [
+        "Trails and Open Spaces Crew Supervisor",
+        "Maintenance Workers"
+      ],
+      "context": "Manages city trails, open spaces, and rights-of-way. Supports Weed Warrior and Adopt a Stream volunteer events. Invasive species management is an ongoing operational priority.",
+      "common_processes": [
+        "Trail inspection and surface repair",
+        "Invasive species identification, treatment, and monitoring",
+        "Volunteer program coordination",
+        "Erosion control",
+        "Signage maintenance",
+        "Stormwater feature inspection"
+      ],
+      "key_considerations": [
+        "Invasive species treatment chemical requirements [VERIFY BEFORE PUBLISHING]",
+        "Volunteer liability and waiver requirements [VERIFY BEFORE PUBLISHING — confirm with City Risk Management]",
+        "ADA trail surface standards [VERIFY BEFORE PUBLISHING]",
+        "Stormwater permit requirements [VERIFY BEFORE PUBLISHING — coordinate with DPW Environmental Management Division]"
+      ]
+    },
+    {
+      "name": "Fleet Services and Vehicle Management",
+      "cost_centers": ["Part of Senior Citizen Services (fleet primarily serves senior transportation); coordination with City Fleet Services for maintenance [VERIFY scope with department]"],
+      "key_roles": [
+        "Fleet Supervisor",
+        "Bus Drivers (CDL-licensed)"
+      ],
+      "context": "CDL-licensed drivers operate City-owned vehicles for senior transportation. The fleet supports aging-in-place transportation goals including early morning, evening, and weekend routes.",
+      "common_processes": [
+        "Vehicle pre-trip and post-trip inspections",
+        "Mileage and trip logs",
+        "Passenger boarding and ADA lift operation",
+        "Route scheduling",
+        "Vehicle maintenance coordination",
+        "Incident and accident reporting",
+        "CDL license and medical certificate tracking"
+      ],
+      "key_considerations": [
+        "CDL requirements for bus drivers [VERIFY BEFORE PUBLISHING]",
+        "ADA paratransit accessibility requirements [VERIFY BEFORE PUBLISHING]",
+        "City vehicle use policy [VERIFY BEFORE PUBLISHING — confirm applicable City AR]",
+        "Insurance and liability for passenger transport",
+        "Senior-specific boarding assistance protocols"
+      ],
+      "format_note": "Vehicle pre-trip and post-trip inspections are Format Type 5 (Job Aid/Checklist)."
+    }
+  ]
+}
