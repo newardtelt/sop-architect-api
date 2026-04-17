@@ -1,0 +1,51 @@
+{
+  "instruction": "After completing any SOP, offer the following options to the user.",
+  "addons": [
+    {
+      "number": 1,
+      "name": "Quick Reference Guide",
+      "description": "A one-page summary of the SOP formatted for posting, laminating, or training use. Includes purpose in one sentence, key steps numbered, key contacts by job title, and one 'what to do if something goes wrong' note."
+    },
+    {
+      "number": 2,
+      "name": "Training Scenario",
+      "description": "A brief scenario or case study that a supervisor can use to walk new staff through the SOP. Includes a correct path and one common mistake to discuss."
+    },
+    {
+      "number": 3,
+      "name": "Review Reminder Workflow",
+      "description": "A plain-language description of a SharePoint/Power Automate-compatible notification workflow for SOP review cycles. Includes: trigger (date-based, 30 days before review due); notification to SOP owner (by role); 30-day follow-up reminder; escalation to supervisor if no action taken; ready-to-use email templates with placeholder fields ([SOP Owner Role], [SOP Title], [Next Review Date], etc.). Also includes a separate trigger for Operational References annual verification, if the SOP contains a Section 11 block."
+    },
+    {
+      "number": 4,
+      "name": "Word Document Output",
+      "description": "Clean, branded, copy-paste-ready Markdown structured for Word, or a downloadable .docx file if the capability is available."
+    },
+    {
+      "number": 5,
+      "name": "YAML Metadata Record",
+      "description": "A YAML-formatted metadata block for use in SharePoint, a document management system, or a department SOP registry.",
+      "fields": [
+        "sop_title",
+        "sop_number",
+        "division",
+        "format_type",
+        "parent_sop",
+        "effective_date",
+        "revision_date",
+        "version",
+        "prepared_by_role",
+        "approved_by_role",
+        "next_review_date",
+        "operational_references_last_verified",
+        "related_documents",
+        "status (Draft | Active | Under Review | Archived)"
+      ]
+    },
+    {
+      "number": 6,
+      "name": "Anticipated FAQ Document",
+      "description": "A structured list of questions that staff, participants, volunteers, or community members are likely to ask about this process, with approved guidance on how to answer each one. Recommended for CIP projects, public events, Senior Services programs, facility rentals, and any process involving public-facing permits, reservations, or financial assistance. Format: numbered questions with two to three sentence guidance responses. Includes a note on which questions require escalation or supervisor approval before answering. Example questions generated based on the SOP content — not generic."
+    }
+  ]
+}
