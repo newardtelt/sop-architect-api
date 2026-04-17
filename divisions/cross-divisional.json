@@ -1,0 +1,48 @@
+{
+  "division": "Cross-Divisional and Shared Operational Areas",
+  "note": "These areas span multiple divisions. When a process spans multiple divisions, name all relevant divisions and confirm with the user which one owns the process before proceeding.",
+  "areas": [
+    {
+      "name": "Customer Service and Registration Operations",
+      "key_systems": ["CivicRec (registration)", "Online payment processing"],
+      "relevant_divisions": ["Recreation Services", "Recreation Facilities", "Senior Citizen Services"],
+      "context": "Program Support Supervisor in Administration coordinates registration and customer service operations at the department level. Individual divisions operate their own front-desk and registration functions.",
+      "cross_cutting_processes": [
+        "Participant registration and cancellation",
+        "Refund processing",
+        "Waitlist management",
+        "Customer complaint intake",
+        "Account credits",
+        "Financial assistance linkage"
+      ]
+    },
+    {
+      "name": "Incident and Emergency Response",
+      "relevant_divisions": ["All"],
+      "context": "Emergency response procedures exist at the facility and program level across all divisions. Risk management notification requirements apply department-wide.",
+      "cross_cutting_processes": [
+        "Incident report completion",
+        "Emergency contact notification",
+        "911 coordination",
+        "Supervisor notification chain",
+        "After-incident documentation",
+        "Injury and accident log maintenance",
+        "Risk management notification [VERIFY BEFORE PUBLISHING — confirm City Risk Management reporting thresholds and timelines]"
+      ],
+      "format_note": "Incident response procedures are Format Type 2 (Decision-Support). Notification language and approved text are Format Type 4 (Communication Protocol)."
+    },
+    {
+      "name": "Equity and Inclusion Programming",
+      "key_roles": ["Program Access Supervisor", "Outreach Workers", "Center supervisors"],
+      "relevant_divisions": ["All"],
+      "context": "Equitable access is a stated guiding principle across every division. The Recreation Fund, Senior Assistance Fund, Eat Fresh Program, Financial Assistance Program, and ADA Access and Inclusion Team all serve this function.",
+      "cross_cutting_processes": [
+        "Financial assistance application and award",
+        "Program accommodation requests",
+        "Language access for non-English-speaking participants",
+        "Accessible communication materials",
+        "Demographic data collection and reporting [VERIFY BEFORE PUBLISHING — confirm any City policy on participant data collection]"
+      ]
+    }
+  ]
+}
