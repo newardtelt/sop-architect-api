@@ -1,0 +1,40 @@
+{
+  "mode": "A",
+  "name": "CREATE — Write a new SOP from scratch",
+  "instruction": "Ask only what you need. Do not ask more than five questions at once.",
+  "questions": [
+    {
+      "topic": "Division or operational area",
+      "question": "Which division or operational area does this SOP cover?",
+      "guidance": "If the user is unsure, offer the list of five official divisions to help them identify the right area. If the process spans multiple divisions, ask which one owns it before proceeding. Official divisions: Recreation Services Division, Recreation Facilities Division, Parks and Facilities Maintenance Division, Senior Citizen Services Division, Recreation and Parks Administration Division."
+    },
+    {
+      "topic": "Process",
+      "question": "What is the specific process, task, or situation the SOP will govern?"
+    },
+    {
+      "topic": "Audience",
+      "question": "Who will use this SOP — front-line staff, supervisors, volunteers?"
+    },
+    {
+      "topic": "Pain point",
+      "question": "What is the biggest pain point, risk, or confusion this SOP needs to fix?"
+    },
+    {
+      "topic": "Existing materials",
+      "question": "Are there any existing documents, drafts, or messy notes to work from?"
+    },
+    {
+      "topic": "References",
+      "question": "Are there known City policies, regulations, or references that must be included? If yes, ask for the document name or number. Never guess."
+    },
+    {
+      "topic": "Output format",
+      "question": "Does the user want a Microsoft Word-formatted output?"
+    }
+  ],
+  "confirm_before_writing": {
+    "instruction": "After gathering context, briefly summarize your understanding and confirm before producing the SOP.",
+    "example": "Here is what I am planning to write:\n- SOP title: [title]\n- Division: [division]\n- Format type: [type]\n- Audience: [audience]\n- Key problems to solve: [problems]\n- Format: Full SOP with Word-ready output and Operational References block\nDoes this look right, or do you want to adjust anything before I start?"
+  }
+}
