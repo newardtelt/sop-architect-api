@@ -1,0 +1,196 @@
+{
+  "division": "Recreation and Parks Administration Division",
+  "areas": [
+    {
+      "name": "ADA and Program Access",
+      "key_roles": [
+        "Program Access Supervisor",
+        "ADA Access and Inclusion Team"
+      ],
+      "context": "The Program Access Supervisor leads the ADA Access and Inclusion Team. Creating SOPs for program accessibility modification requests is an ongoing departmental priority. ADA compliance applies across all five divisions and all facilities.",
+      "common_processes": [
+        "Accommodation request intake and review",
+        "Modification implementation and documentation",
+        "ADA grievance procedure",
+        "Staff training on inclusive practices",
+        "Facility accessibility barrier identification and reporting",
+        "Transition plan updates"
+      ],
+      "key_considerations": [
+        "ADA Title II requirements [VERIFY BEFORE PUBLISHING]",
+        "City ADA Transition Plan [VERIFY BEFORE PUBLISHING — confirm current version and year]",
+        "Coordination with the City-wide ADA Coordinator [VERIFY BEFORE PUBLISHING — confirm which department houses this role]",
+        "Records retention for accommodation decisions"
+      ]
+    },
+    {
+      "name": "Marketing, Communications, and Activity Guide Production",
+      "key_roles": [
+        "Marketing and Development Manager",
+        "Development Coordinator"
+      ],
+      "context": "This area coordinates department-wide marketing, the activity guide production cycle, social media, and development work with the Rockville Recreation and Parks Foundation. The department produces multiple recreation guides per year in digital and print formats.",
+      "common_processes": [
+        "Activity guide production schedule and coordination",
+        "CivicRec data export for guide content",
+        "City Communications Division coordination (pioteam@rockvillemd.gov)",
+        "Print vendor procurement and proofing",
+        "Digital guide distribution",
+        "Social media content calendar",
+        "Grant application support"
+      ],
+      "key_considerations": [
+        "City Grammar and Writing Guide compliance for all external-facing materials",
+        "City of Rockville brand standards for logo use",
+        "City Communications Division review process [VERIFY BEFORE PUBLISHING — confirm what CCE review is required before publication]"
+      ],
+      "format_note": "Public-facing communications triggered by incidents or unplanned events are Format Type 4 (Communication Protocol)."
+    },
+    {
+      "name": "Capital Improvement Projects (CIP) Management",
+      "cost_centers": ["Capital Projects"],
+      "key_roles": [
+        "Senior Construction Project Manager",
+        "Development Coordinator"
+      ],
+      "context": "The Administration Division oversees CIP projects affecting all city parks, recreation facilities, and open spaces. Projects move through design, construction, and close-out phases and are tracked in the CIP program budget. The user should provide the current active project list when writing project-specific SOPs — do not assume which projects are active.",
+      "common_processes": [
+        "Project initiation documentation",
+        "Design phase milestone tracking",
+        "Contractor selection coordination with City Procurement",
+        "Construction administration oversight",
+        "Punch list management",
+        "Project close-out documentation",
+        "CIP reporting to Mayor and Council",
+        "Budget transfer requests"
+      ],
+      "key_considerations": [
+        "City procurement and contracting thresholds [VERIFY BEFORE PUBLISHING — coordinate with Department of Procurement]",
+        "ADA compliance review for all new or renovated facilities [VERIFY BEFORE PUBLISHING]",
+        "Historic structure review for applicable projects [VERIFY BEFORE PUBLISHING — confirm SHPO involvement when relevant]",
+        "Davis-Bacon prevailing wage requirements for federally funded projects [VERIFY BEFORE PUBLISHING]",
+        "Public notice requirements for major park improvements"
+      ],
+      "format_note": "CIP project lifecycle SOPs are Format Type 3 (Phased/Milestone). Community engagement SOPs for CIP projects are Format Type 3 with an Anticipated FAQ add-on recommended."
+    },
+    {
+      "name": "Budget Management and Cost Recovery Monitoring",
+      "key_roles": [
+        "Director",
+        "Deputy Director",
+        "Division Superintendents",
+        "Program Support Supervisor",
+        "Administrative support staff"
+      ],
+      "context": "The department tracks cost recovery by cost center and reports against adopted targets. Budget data is maintained in ClearGov and reconciled against CivicRec registration revenue. The user should provide current cost center names and targets when writing budget-related SOPs.",
+      "common_processes": [
+        "Monthly budget-to-actual review by cost center",
+        "Revenue reconciliation with CivicRec registration data",
+        "Cost recovery calculation and reporting",
+        "Budget transfer request preparation",
+        "Mid-year adjustment documentation",
+        "ClearGov data entry and public reporting"
+      ],
+      "key_considerations": [
+        "City budget transfer policy and approval thresholds [VERIFY BEFORE PUBLISHING]",
+        "Fiscal year timeline (July 1 through June 30)",
+        "Grant revenue tracking as a separate revenue stream from earned program revenue"
+      ]
+    },
+    {
+      "name": "Grant Management",
+      "key_roles": [
+        "Marketing and Development Manager",
+        "Director (as grant signatory)"
+      ],
+      "context": "The department receives grant funding from multiple sources annually, including environmental, aging services, arts, and recreation funders. Each grant has distinct reporting and compliance requirements.",
+      "common_processes": [
+        "Grant opportunity identification and screening",
+        "Application preparation and submission",
+        "Award documentation and budget setup",
+        "Compliance reporting and reimbursement requests",
+        "Grant close-out documentation",
+        "Coordination with City Finance for grant accounting [VERIFY BEFORE PUBLISHING]"
+      ],
+      "key_considerations": [
+        "Reporting requirements vary by grantor — confirm requirements in each award agreement [VERIFY BEFORE PUBLISHING]",
+        "City grant acceptance process [VERIFY BEFORE PUBLISHING — confirm whether Mayor and Council acceptance is required above certain thresholds]",
+        "Period of performance tracking"
+      ],
+      "format_note": "Grant lifecycle SOPs are Format Type 3 (Phased/Milestone)."
+    },
+    {
+      "name": "Volunteer Management (Department-Wide)",
+      "key_roles": [
+        "Varies by division; no single department-wide volunteer coordinator — program and facility supervisors manage volunteers within their areas"
+      ],
+      "context": "The department engages hundreds of volunteers annually across parks maintenance, environmental programs, senior services, and recreation programming. Background screening requirements vary by program type.",
+      "common_processes": [
+        "Volunteer recruitment and intake",
+        "Background screening (when required)",
+        "Orientation and training",
+        "Assignment and scheduling",
+        "Hour tracking and reporting",
+        "Recognition",
+        "Volunteer code of conduct",
+        "Incident reporting involving volunteers"
+      ],
+      "key_considerations": [
+        "City volunteer policy [VERIFY BEFORE PUBLISHING — confirm with City Manager's Office or City HR]",
+        "Background screening requirements by program type [VERIFY BEFORE PUBLISHING — especially for programs involving youth or vulnerable adults]",
+        "Liability coverage for volunteers [VERIFY BEFORE PUBLISHING — confirm with City Risk Management]",
+        "Mandatory reporter training [VERIFY BEFORE PUBLISHING]"
+      ]
+    },
+    {
+      "name": "Procurement Coordination",
+      "key_roles": [
+        "Division Superintendents and Supervisors",
+        "Interface with City Department of Procurement"
+      ],
+      "context": "All formal procurement flows through the City's Department of Procurement. Recreation and Parks staff initiate requests and document vendor quotes within City thresholds.",
+      "common_processes": [
+        "Purchase request preparation and routing",
+        "Vendor quote documentation for small purchases",
+        "Contract routing for approval",
+        "Sole source justification preparation",
+        "Purchase order tracking",
+        "P-card use and reconciliation [VERIFY BEFORE PUBLISHING — confirm whether department uses City purchasing cards]",
+        "Equipment disposal and surplus"
+      ],
+      "key_considerations": [
+        "City procurement thresholds and bidding requirements [VERIFY BEFORE PUBLISHING — contact Department of Procurement for current thresholds]",
+        "Prevailing wage and contractor compliance [VERIFY BEFORE PUBLISHING]",
+        "Contractor insurance certificate requirements [VERIFY BEFORE PUBLISHING]",
+        "Conflict of interest policy [VERIFY BEFORE PUBLISHING — confirm applicable City ethics policy]"
+      ]
+    },
+    {
+      "name": "Human Resources Coordination",
+      "key_roles": [
+        "Division Superintendents",
+        "Director",
+        "Interface with City Department of Human Resources"
+      ],
+      "context": "All hiring, onboarding, and formal HR actions are coordinated through the City's Department of Human Resources. The department employs both regular and temporary or seasonal staff across all five divisions.",
+      "common_processes": [
+        "Position requisition and posting",
+        "Interview panel coordination",
+        "Conditional offer and background clearance",
+        "New employee onboarding (City-wide and department-specific)",
+        "Temporary and seasonal staff hiring",
+        "Performance evaluation coordination",
+        "Disciplinary process coordination",
+        "Off-boarding",
+        "FTE position change requests"
+      ],
+      "key_considerations": [
+        "City HR policies [VERIFY BEFORE PUBLISHING — coordinate with City Department of Human Resources]",
+        "Labor/Employee Relations requirements for covered positions [VERIFY BEFORE PUBLISHING — confirm which positions are covered]",
+        "FLSA classification for part-time and temporary staff [VERIFY BEFORE PUBLISHING]",
+        "I-9 and E-Verify requirements [VERIFY BEFORE PUBLISHING]",
+        "Background clearance timelines for seasonal hiring cycles"
+      ]
+    }
+  ]
+}
