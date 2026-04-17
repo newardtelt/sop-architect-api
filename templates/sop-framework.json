@@ -1,0 +1,117 @@
+{
+  "template": "Standard SOP Framework — Format Type 1 (Step-by-Step Procedure)",
+  "note": "Every Format Type 1 SOP uses this structure. Sections may be abbreviated, combined, or expanded based on complexity — but never omitted without reason. If a section is not applicable, write 'Not applicable' rather than deleting the heading.",
+  "sections": [
+    {
+      "number": 0,
+      "title": "Document Header",
+      "description": "Branded block at the top of every SOP.",
+      "fields": [
+        "LOGO PLACEMENT: City of Rockville Recreation and Parks badge — top left",
+        "SOP TITLE: [Full descriptive title]",
+        "SOP NUMBER: [Use the numbering convention from the SOP Numbering reference]",
+        "DIVISION/AREA: [Which division or operational area this covers]",
+        "EFFECTIVE DATE: [MM/DD/YYYY]",
+        "REVISION DATE: [MM/DD/YYYY or 'Not yet revised']",
+        "VERSION: [e.g., 1.0]",
+        "PREPARED BY: [Job title of the person who drafted this SOP]",
+        "APPROVED BY: [Job title of the approving authority]",
+        "NEXT REVIEW DATE: [MM/DD/YYYY — typically 2 years from effective date]",
+        "PARENT SOP: [SOP number and title of governing parent SOP, if any, or 'None']",
+        "DISTRIBUTION: [List job titles or roles that receive a copy when this SOP is published or revised]"
+      ],
+      "version_history_table": {
+        "columns": ["Version", "Date", "Author (title)", "Change Summary"],
+        "initial_row": ["1.0", "", "", "Initial release"]
+      },
+      "note": "Use job titles in Prepared By, Approved By, and Distribution fields — not personal names. SOPs should remain valid when staff changes."
+    },
+    {
+      "number": 1,
+      "title": "Quick Reference Summary",
+      "description": "Write 2 to 3 sentences that answer: What does this SOP cover? Who uses it? Why does it matter?",
+      "note": "This section is written for a supervisor, director, or new employee reading the SOP for the first time. It should be scannable in under 30 seconds.",
+      "fields": ["Key Contact: [Job title and contact method — not a personal name]"]
+    },
+    {
+      "number": 2,
+      "title": "Purpose",
+      "description": "One clear paragraph explaining why this SOP exists. Focus on the problem it solves or the outcome it ensures. Avoid vague language like 'to ensure compliance.' Say what it actually does.",
+      "example": "This SOP establishes a consistent process for opening and closing Thomas Farm Community Center. It ensures that facilities are secured, safety checks are completed, and staff know exactly what is expected at the start and end of every shift."
+    },
+    {
+      "number": 3,
+      "title": "Scope",
+      "description": "Describe clearly: what processes, tasks, or activities this SOP covers; which staff, volunteers, contractors, or divisions are included; any explicit exceptions or boundaries.",
+      "required_subsection": {
+        "name": "WILL NOT APPLY TO",
+        "description": "List processes, situations, or roles explicitly excluded from this SOP. This subsection is REQUIRED. If there are no meaningful exclusions, write 'No exclusions identified.' Making exclusions explicit prevents staff from applying this SOP to situations it was not designed for."
+      }
+    },
+    {
+      "number": 4,
+      "title": "Definitions",
+      "description": "List terms, acronyms, and system names used in this SOP. Format as a simple two-column table: Term | Definition.",
+      "note": "Always define CivicRec, ClearGov, SharePoint, Power Automate, or any other system referenced in procedures. If a system name does not appear in the Division Reference, add a [VERIFY BEFORE PUBLISHING] note."
+    },
+    {
+      "number": 5,
+      "title": "Roles and Responsibilities",
+      "description": "Identify every role involved. Describe what each person is responsible for in this process. Use a table when three or more roles are involved.",
+      "table_columns": ["Role", "Responsibilities"],
+      "note": "Always use job titles — never personal names."
+    },
+    {
+      "number": 6,
+      "title": "Procedures",
+      "description": "This is the core of the SOP. Write numbered steps. Each step must describe one action, assign it to a role, and note any tool, form, or system used.",
+      "format_rules": [
+        "Number each step (1, 2, 3...).",
+        "Use sub-steps (1a, 1b) for branching decisions or conditional paths.",
+        "Write decision points as If/Then statements.",
+        "Use tables for multi-column processes (who does what, in which system).",
+        "Use a simple flow diagram when the process has more than one decision point.",
+        "Reference specific forms, system screens, or checklists by name.",
+        "For vendor contacts, equipment IDs, system paths, and form locations, write 'see Operational References' rather than embedding the detail inline.",
+        "Flag every step that involves money, personal information, or risk with [CRITICAL STEP] so staff know to slow down."
+      ],
+      "flow_diagram_format": "START → [Step 1 Action — Role responsible] → [Decision Condition] → YES/NO branches → END",
+      "enclosures_note": "Forms, checklists, and templates referenced in this SOP are listed as enclosures rather than embedded in the procedure. Reference them by label in steps (e.g., 'Complete Enclosure 1 — Facility Use Request Form'). List all enclosures in the Operational References block (Section 11)."
+    },
+    {
+      "number": 7,
+      "title": "Safety, Risk, and Compliance",
+      "description": "Describe: any physical safety requirements (PPE, equipment, hazardous materials); ADA or accessibility requirements relevant to this process; participant safety obligations (supervision ratios, emergency procedures); licensing or certification requirements for staff performing this task; any permits, inspections, or formal approvals required.",
+      "note": "Cite City policies and regulations by their verified name and number only. If unverified, write [VERIFY BEFORE PUBLISHING]. Include a short 'What to Do If Something Goes Wrong' note for high-risk processes."
+    },
+    {
+      "number": 8,
+      "title": "Records and Documentation",
+      "description": "Describe: what records are created by this process (forms, logs, digital entries); where they are stored (SharePoint, CivicRec, paper file, ClearGov); how long records must be kept [VERIFY BEFORE PUBLISHING if uncertain]; who is responsible for maintaining and archiving them.",
+      "table_columns": ["Record", "Storage Location", "Retention Period", "Responsible Role"]
+    },
+    {
+      "number": 9,
+      "title": "Review and Update Cycle",
+      "description": "State: how often this SOP should be reviewed (typically every two years); who is responsible for triggering the review (by job title); what events should prompt an early review (policy change, incident, system change, new regulation, staff restructuring).",
+      "operational_references_note": "State separately: The Operational References block (Section 11) should be verified annually or when any trigger in the Verify When column occurs, independent of the SOP review schedule.",
+      "example": "This SOP is reviewed every two years by the [Division Supervisor or Manager]. An early review is required if a significant incident occurs, the relevant City policy changes, or the software system used in this process is updated. The Operational References block is verified annually regardless of the SOP review schedule. Next scheduled SOP review: [DATE]."
+    },
+    {
+      "number": 10,
+      "title": "Related Documents",
+      "description": "List related SOPs, forms, policies, or training materials by title. If this is a child SOP, list the parent SOP first. Link or reference their storage location when known.",
+      "table_columns": ["Document Title", "Type", "Relationship", "Location"]
+    },
+    {
+      "number": 11,
+      "title": "Operational References",
+      "description": "This section contains task-critical reference information that must remain accessible in the SOP to make procedures usable, but changes on its own schedule independent of the procedure itself. When any item in this section changes, update this section only. Do not trigger a full SOP revision unless the procedure steps also need to change.",
+      "table_columns": ["Reference Item", "Type", "Current Value", "Last Verified", "Verify When"],
+      "type_options": ["Vendor contact", "Equipment ID", "System path", "Staff routing", "Form location", "Other"],
+      "verify_when_examples": ["Contract renewal", "Device replacement", "System migration", "Staff reorganization", "Form update"],
+      "note": "The Last Verified column is maintained by the SOP owner, not by the GPT. Leave it blank or enter the current date when the SOP is first published.",
+      "procedure_steps_note": "Procedure steps in Section 6 reference items in this section by label rather than embedding details inline. Example: Step 4 says 'Contact the vendor — see Operational References.'"
+    }
+  ]
+}
