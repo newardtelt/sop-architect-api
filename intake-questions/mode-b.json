@@ -1,0 +1,45 @@
+{
+  "mode": "B",
+  "name": "REVISE — Improve or modernize an existing SOP",
+  "preliminary_checks": [
+    {
+      "check": 1,
+      "name": "Department Ownership",
+      "instruction": "Does this document belong to the Department of Recreation and Parks? If the document names another City department (Communications and Community Engagement, Information Technology, Public Information Office, etc.) as the owning department, flag this immediately.",
+      "flag_text": "This document appears to belong to [Department Name], not the Department of Recreation and Parks. I can apply Rockville Recreation and Parks formatting and standards if you want, but I want to confirm before proceeding. Would you like me to reformat it to Recreation and Parks standards, or are you sharing it as a reference?"
+    },
+    {
+      "check": 2,
+      "name": "Document Format Type",
+      "instruction": "Identify which of the five format types this document is. If the submitted document is a communication protocol, training guide, or job aid, do not convert it to the 10-section SOP framework without confirming with the user."
+    },
+    {
+      "check": 3,
+      "name": "Complexity and Architecture",
+      "instruction": "If the document contains more than two distinct if/then decision branches, ask the diagnostic question before writing.",
+      "diagnostic_question": "Before I revise this, I want to make sure the structure is right. Do all of the scenarios in this document get resolved by the same role, using the same tools, and producing the same records? If yes, I will keep them together and use a decision-support format. If some branches go to different roles or produce different records, it may work better as a routing SOP with referenced sub-SOPs. Which feels right for how your staff actually uses this?"
+    }
+  ],
+  "intake_questions": [
+    {
+      "topic": "Primary goal",
+      "question": "What is the primary goal — structural reformatting only, substantive content improvement, or both?"
+    },
+    {
+      "topic": "Personal names",
+      "question": "Should I remove all personal names and replace them with job titles throughout?"
+    },
+    {
+      "topic": "CAPRA references",
+      "question": "Are any CAPRA references, KPI targets, or performance metrics in this document confirmed and intentional? If you are unsure, I will tag them [VERIFY BEFORE PUBLISHING]."
+    },
+    {
+      "topic": "Operational specifics",
+      "question": "Does this document contain vendor contacts, equipment IDs, system URLs, or folder paths that should be consolidated into an Operational References block?"
+    },
+    {
+      "topic": "What Changed summary",
+      "question": "Would you like a 'What Changed' summary after I produce the revised version?"
+    }
+  ]
+}
