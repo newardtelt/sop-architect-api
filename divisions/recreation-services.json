@@ -1,0 +1,158 @@
+{
+  "division": "Recreation Services Division",
+  "cost_centers": ["Arts", "Sports", "Summer Camps", "Out-of-School Time Enrichment", "Administration and Support"],
+  "areas": [
+    {
+      "name": "Recreation Programming (General)",
+      "cost_centers": ["Arts", "Sports", "Summer Camps", "Out-of-School Time Enrichment", "Administration and Support"],
+      "key_roles": [
+        "Recreation Services Superintendent",
+        "Recreation Programs Manager",
+        "Recreation Programs Supervisors",
+        "Recreation Program Coordinators",
+        "Arts Programs Supervisor",
+        "Sports Program Supervisor",
+        "Administrative Specialist"
+      ],
+      "context": "CivicRec is the primary registration and program management system.",
+      "common_processes": [
+        "Program registration, cancellations, refunds, waitlists",
+        "Participant rosters",
+        "Instructor agreements",
+        "Program evaluations",
+        "Minimum enrollment decisions",
+        "Activity guide production"
+      ],
+      "key_considerations": [
+        "Participant communication standards",
+        "Cost recovery by cost center",
+        "Staff-to-participant ratios",
+        "Volunteer coordination"
+      ]
+    },
+    {
+      "name": "Childcare and Out-of-School Time Enrichment",
+      "cost_centers": ["Childcare", "Out-of-School Time Enrichment"],
+      "key_roles": [
+        "Recreation Programs Specialist (Childcare)",
+        "Recreation Program Coordinators"
+      ],
+      "context": "The department operates both licensed and unlicensed childcare and out-of-school programs. Licensing status is an active compliance distinction.",
+      "common_processes": [
+        "Enrollment and waitlist management",
+        "State licensing renewal",
+        "Staff background check coordination",
+        "Ratio compliance",
+        "Parent communication",
+        "Incident reporting",
+        "Field trip approval"
+      ],
+      "key_considerations": [
+        "Maryland childcare licensing requirements [VERIFY BEFORE PUBLISHING]",
+        "Supervision ratios",
+        "Background clearance timelines",
+        "Licensed vs. unlicensed program distinctions"
+      ]
+    },
+    {
+      "name": "Teens and Adventure Sports",
+      "cost_centers": ["Teens and Adventure Sports"],
+      "key_roles": [
+        "Recreation Programs Supervisor",
+        "Recreation Program Coordinators"
+      ],
+      "context": "A growing program area involving off-site trips, physical risk activities, and specialized equipment.",
+      "common_processes": [
+        "Program registration",
+        "Equipment inspection and storage",
+        "Trip and excursion planning",
+        "Permission and release forms",
+        "Transportation coordination",
+        "Safety briefings"
+      ],
+      "key_considerations": [
+        "Participant age verification",
+        "Risk management thresholds for adventure activities [VERIFY BEFORE PUBLISHING — confirm with City Risk Management]",
+        "Equipment certification",
+        "Weather hold protocols"
+      ]
+    },
+    {
+      "name": "Special Events",
+      "cost_centers": ["Special Events"],
+      "key_roles": [
+        "Special Events Manager",
+        "Special Events Operations Supervisor",
+        "Special Events Supervisor",
+        "Special Events Coordinator",
+        "Special Events Technicians"
+      ],
+      "context": "The division plans, supports, and licenses community events and ceremonies each year. This includes both department-produced events (Hometown Holidays, Independence Day Celebration, Antique and Classic Car Show, weekly Farmers Market) and licensed third-party events in parks and facilities.",
+      "common_processes": [
+        "Event production checklists",
+        "Permit intake and review",
+        "Vendor agreements",
+        "Insurance certificate collection",
+        "Site layout approval",
+        "Public safety coordination",
+        "Post-event after-action reports"
+      ],
+      "key_considerations": [
+        "City event permit requirements [VERIFY BEFORE PUBLISHING]",
+        "Alcohol permits",
+        "Generator and electrical safety",
+        "ADA access plan per event site",
+        "Load-in and load-out logistics",
+        "Noise ordinance [VERIFY BEFORE PUBLISHING]"
+      ],
+      "format_note": "Event safety briefings and staff communication protocols for Special Events are Format Type 4 (Communication Protocol), not Format Type 1."
+    },
+    {
+      "name": "Farmers Market and Eat Fresh Program",
+      "cost_centers": ["Farmers Market Eat Fresh Program"],
+      "key_roles": [
+        "Special Events staff",
+        "Program coordination with Capital Area Food Bank for Mobile Market"
+      ],
+      "context": "The weekly Farmers Market is a department-produced event. The Eat Fresh program distributes produce vouchers to low-income families using SNAP/EBT benefits.",
+      "common_processes": [
+        "Vendor selection and agreements",
+        "Weekly market setup and breakdown",
+        "SNAP/EBT token administration",
+        "Eat Fresh voucher distribution",
+        "Produce ordering and logistics",
+        "Food safety handling"
+      ],
+      "key_considerations": [
+        "USDA SNAP program requirements [VERIFY BEFORE PUBLISHING]",
+        "Food safety handling standards [VERIFY BEFORE PUBLISHING]",
+        "Vendor permit and insurance requirements",
+        "Capital Area Food Bank coordination"
+      ]
+    },
+    {
+      "name": "Recreation Fund (Financial Assistance)",
+      "cost_centers": ["Recreation Fund"],
+      "key_roles": [
+        "Program Access Supervisor (coordinates eligibility)",
+        "Program staff (process CivicRec account credits)"
+      ],
+      "context": "The Recreation Fund collects donations and provides financial assistance to eligible residents for program participation.",
+      "common_processes": [
+        "Application intake and review",
+        "Eligibility determination",
+        "Award notification",
+        "CivicRec account credit processing",
+        "Donor receipt acknowledgment",
+        "Fund balance reporting"
+      ],
+      "key_considerations": [
+        "Eligibility criteria [VERIFY BEFORE PUBLISHING — confirm with Program Access Supervisor]",
+        "Documentation retention",
+        "Equitable application of assistance",
+        "Applicant privacy",
+        "Reporting to the Recreation and Park Advisory Board"
+      ]
+    }
+  ]
+}
