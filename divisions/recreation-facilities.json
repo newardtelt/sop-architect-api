@@ -1,0 +1,116 @@
+{
+  "division": "Recreation Facilities Division",
+  "areas": [
+    {
+      "name": "Community Centers",
+      "cost_centers": ["Lincoln Park Community Center", "Twinbrook Community Recreation Center", "Thomas Farm Community Center"],
+      "key_roles": [
+        "Community Center Supervisors",
+        "Assistant Recreation Center Supervisors"
+      ],
+      "context": "Each community center operates with its own supervisor and assistant supervisors. Centers deliver drop-in programs, structured classes, and facility rentals.",
+      "common_processes": [
+        "Facility opening and closing procedures",
+        "Facility rentals and reservations",
+        "Drop-in use supervision",
+        "Setup and breakdown",
+        "Maintenance request submission",
+        "Key control",
+        "Custodial oversight",
+        "Incident reporting"
+      ],
+      "key_considerations": [
+        "Building security",
+        "After-hours access protocols",
+        "ADA pathway and accessibility compliance",
+        "Alcohol permit coordination for rentals [VERIFY BEFORE PUBLISHING]",
+        "Building capacity limits",
+        "HVAC issue reporting"
+      ],
+      "format_note": "Opening and closing procedures are Format Type 1. Weather and emergency closure decisions are Format Type 2."
+    },
+    {
+      "name": "Rockville Swim and Fitness Center",
+      "cost_centers": ["Swim and Fitness Center"],
+      "key_roles": [
+        "Facility Supervisor",
+        "Program Specialists",
+        "Lifeguard staff"
+      ],
+      "context": "The Swim and Fitness Center is the largest revenue-generating cost center in Recreation Facilities. It operates an indoor pool, outdoor recreation pool, and fitness center.",
+      "common_processes": [
+        "Lifeguard scheduling and certification tracking",
+        "Pool chemistry testing and logging",
+        "Emergency action plan activation",
+        "Swim lesson registration and placement",
+        "Lane reservation management",
+        "Fitness center access control",
+        "Patron conduct enforcement",
+        "Daily facility inspections"
+      ],
+      "key_considerations": [
+        "Maryland Department of Health pool licensing [VERIFY BEFORE PUBLISHING]",
+        "Lifeguard certification and recertification requirements [VERIFY BEFORE PUBLISHING]",
+        "Chemical handling and storage [VERIFY BEFORE PUBLISHING]",
+        "Water quality logs as legal records",
+        "Staff-to-patron ratios"
+      ],
+      "format_note": "Emergency action plans are Format Type 2 (Decision-Support)."
+    },
+    {
+      "name": "Croydon Creek Nature Center",
+      "cost_centers": ["Croydon Creek Nature Center"],
+      "key_roles": [
+        "Nature Center Supervisor",
+        "Assistant Recreation Center Supervisor"
+      ],
+      "context": "Environmental education facility with live resident animals, outdoor programming, and a Native Plant Sale. Volunteer naturalists support programs.",
+      "common_processes": [
+        "Live animal care schedules",
+        "School group visit coordination",
+        "Nature program delivery",
+        "Volunteer naturalist oversight",
+        "Native Plant Sale logistics",
+        "Trail condition monitoring",
+        "Weather hold protocols for outdoor programs",
+        "Field trip coordination"
+      ],
+      "key_considerations": [
+        "Animal welfare and state wildlife handling requirements [VERIFY BEFORE PUBLISHING — contact Maryland Department of Natural Resources]",
+        "School group supervision ratios",
+        "Outdoor safety protocols"
+      ]
+    },
+    {
+      "name": "Civic Center Complex",
+      "cost_centers": ["Civic Center Complex"],
+      "key_roles": [
+        "F. Scott Fitzgerald Theatre/Civic Center Supervisor",
+        "Civic Center Facilities Supervisor",
+        "Civic Center Office Manager",
+        "Civic Center Rental Coordinator",
+        "Theatre Production Specialist",
+        "Box Office Manager",
+        "Maintenance Workers"
+      ],
+      "context": "The Civic Center Complex is one of the most operationally complex areas in the department. It encompasses the F. Scott Fitzgerald Theatre, Glenview Mansion, Social Hall, Elwood Smith Community Center, Pump House Community Center, park pavilion rentals, and community gardens at Woottons Mill Park. Theatre production, historic venue events, box office operations, and multi-use facility rentals all occur simultaneously under one management structure.",
+      "common_processes": [
+        "Facility rental intake, contracts, and insurance certificate review",
+        "Theatre production coordination and stage management",
+        "Box office operations, ticket sales, and revenue reconciliation",
+        "Glenview Mansion event setup, breakdown, and historic structure protocols",
+        "Alcohol permit coordination [VERIFY BEFORE PUBLISHING]",
+        "Park pavilion and shelter reservation management",
+        "Community garden plot assignment and rules enforcement",
+        "ADA compliance review for all event and rental spaces"
+      ],
+      "key_considerations": [
+        "Alcohol permit process [VERIFY BEFORE PUBLISHING]",
+        "Insurance minimums for renters [VERIFY BEFORE PUBLISHING]",
+        "Theatre technical rider requirements",
+        "Glenview Mansion historic structure protocols [VERIFY BEFORE PUBLISHING — confirm any preservation requirements with Capital Projects]",
+        "Outdoor event noise and load-in restrictions"
+      ]
+    }
+  ]
+}
