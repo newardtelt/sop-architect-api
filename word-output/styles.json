@@ -1,0 +1,181 @@
+{
+  "instruction": "When any Word document output is requested, retrieve and apply every specification in this file exactly. Present the format_selection_menu and wait for the user's selection before generating anything.",
+
+  "format_selection_menu": {
+    "prompt": "How would you like the document formatted?\n\n  1. Full SOP — complete document, all sections populated\n  2. Blank template — pre-formatted shell with placeholder fields for staff to fill in by hand\n  3. Job aid — one-page checklist, optimized for printing\n  4. Quick Reference Guide — one-page summary, formatted for laminating\n\nType a number to continue.",
+    "options": [
+      { "number": 1, "name": "Full SOP", "description": "Complete formatted document with all sections populated from the session" },
+      { "number": 2, "name": "Blank Template", "description": "Pre-formatted shell with bracketed placeholder fields — no real content pre-filled" },
+      { "number": 3, "name": "Job Aid", "description": "One-page checkbox checklist, print-optimized, 12pt minimum font" },
+      { "number": 4, "name": "Quick Reference Guide", "description": "One-page summary formatted for posting or laminating" }
+    ]
+  },
+
+  "document_properties": {
+    "title": "Set to the SOP title",
+    "language": "en-US",
+    "note": "Set core_properties.title and core_properties.language via python-docx before saving"
+  },
+
+  "page_setup": {
+    "default": {
+      "page_size": "letter",
+      "orientation": "portrait",
+      "margin_top_in": 1.0,
+      "margin_bottom_in": 1.0,
+      "margin_left_in": 1.0,
+      "margin_right_in": 1.0
+    },
+    "job_aid_override": {
+      "margin_top_in": 0.75,
+      "margin_bottom_in": 0.75,
+      "margin_left_in": 0.75,
+      "margin_right_in": 0.75
+    }
+  },
+
+  "styles": {
+    "sop_title": {
+      "maps_to": "Heading 1",
+      "font": "Calibri",
+      "size_pt": 16,
+      "bold": true,
+      "color_hex": "1F3864",
+      "space_before_pt": 0,
+      "space_after_pt": 6
+    },
+    "section_header": {
+      "maps_to": "Heading 2",
+      "font": "Calibri",
+      "size_pt": 13,
+      "bold": true,
+      "color_hex": "1F3864",
+      "space_before_pt": 12,
+      "space_after_pt": 4
+    },
+    "subsection_header": {
+      "maps_to": "Heading 3",
+      "font": "Calibri",
+      "size_pt": 11,
+      "bold": true,
+      "color_hex": "2E74B5",
+      "space_before_pt": 8,
+      "space_after_pt": 2
+    },
+    "body_text": {
+      "maps_to": "Normal",
+      "font": "Calibri",
+      "size_pt": 11,
+      "line_spacing": "single",
+      "space_after_pt": 6
+    },
+    "callout_note": {
+      "prefix": "NOTE:",
+      "font": "Calibri",
+      "size_pt": 11,
+      "italic": true,
+      "left_indent_in": 0.25
+    },
+    "callout_critical": {
+      "prefix": "CRITICAL STEP:",
+      "font": "Calibri",
+      "size_pt": 11,
+      "bold": true,
+      "left_indent_in": 0.25
+    },
+    "job_aid_step": {
+      "font": "Calibri",
+      "size_pt": 12,
+      "note": "Minimum 12pt for print readability in job aids"
+    }
+  },
+
+  "header_footer": {
+    "header_left": "City of Rockville — Department of Recreation and Parks",
+    "header_right": "[SOP Number]",
+    "footer_left": "Effective: [Effective Date]  |  Review: [Next Review Date]",
+    "footer_right": "Page X of Y",
+    "note": "Use python-docx sections to set header and footer on all pages"
+  },
+
+  "tables": {
+    "default_style": "Table Grid",
+    "header_row_bold": true,
+    "header_row_shading_hex": "D6E4F0",
+    "repeat_header_row_on_each_page": true,
+    "ada_note": "Always call row.cells[0].paragraphs[0]... and set the first row as a header row in Word table properties for ADA compliance"
+  },
+
+  "page_breaks": {
+    "insert_before_each_major_section": true,
+    "applies_to": ["Section 2", "Section 3", "Section 4", "Section 5", "Section 6", "Section 7", "Section 8", "Section 9", "Section 10", "Section 11"]
+  },
+
+  "image_handling": {
+    "instruction": "For every image or screenshot in the source document, insert a labeled placeholder paragraph in italics",
+    "placeholder_format": "[INSERT SCREENSHOT: description of what the image shows]",
+    "style": "italic, Calibri 11pt, indented 0.25in",
+    "alt_text_note": "Add descriptive alt text to every image when inserted — required for ADA compliance"
+  },
+
+  "ada_compliance": {
+    "heading_hierarchy": "Use heading styles in strict order — never skip from H1 to H3 or H2 to H4",
+    "table_headers": "Mark the first row of every table as a header row using Word table properties — bold text alone does not satisfy ADA",
+    "hyperlinks": "Use descriptive link text — never 'click here' or a bare URL as the display text",
+    "color": "Never use color as the only way to convey information — always pair with text or symbol",
+    "document_language": "Set document language to English (United States) via core_properties",
+    "document_title": "Set document title property to the SOP title via core_properties.title",
+    "reading_order": "All content must flow in logical reading order — do not use floating text boxes for main content",
+    "alt_text": "Every image or screenshot must have descriptive alt text — placeholder images should note what will be inserted"
+  },
+
+  "format_type_structures": {
+    "type_1_step_by_step": {
+      "name": "Type 1 — Step-by-Step Procedure",
+      "step_format": "Numbered list, Calibri 11pt, each step begins with an action verb",
+      "sub_steps": "Lettered sub-list (a, b, c) indented under parent step",
+      "callout_placement": "Callout tag appears on the line immediately after the relevant step, indented 0.25in"
+    },
+    "type_2_decision_support": {
+      "name": "Type 2 — Decision-Support",
+      "primary_element": "Table with columns: Condition | Action | Responsible Role | Notes",
+      "table_note": "Mark header row for ADA; repeat on each page"
+    },
+    "type_3_phased_milestone": {
+      "name": "Type 3 — Phased/Milestone",
+      "primary_element": "Table with columns: Phase | Tasks | Responsible Role | Target Timeframe | Dependencies",
+      "table_note": "Mark header row for ADA; repeat on each page"
+    },
+    "type_4_communication_protocol": {
+      "name": "Type 4 — Communication Protocol",
+      "primary_element": "Table with columns: Trigger/Situation | Message | Channel | Sender (Role) | Audience | Timeframe",
+      "table_note": "Mark header row for ADA; repeat on each page"
+    },
+    "type_5_job_aid": {
+      "name": "Type 5 — Job Aid/Checklist",
+      "step_format": "Checkbox list — each item begins with an empty checkbox character (☐)",
+      "font_size_minimum_pt": 12,
+      "length": "One page maximum; use condensed spacing if needed",
+      "margins": "Use job_aid_override margins from page_setup"
+    }
+  },
+
+  "blank_template_placeholders": {
+    "instruction": "In blank template mode, replace all real content with bracketed placeholder fields. Do not pre-populate any field with actual content.",
+    "standard_fields": [
+      "[SOP Title]",
+      "[SOP Number — format: DIV-AREA-###]",
+      "[Division Name]",
+      "[Effective Date]",
+      "[Prepared By — Job Title Only]",
+      "[Approved By — Job Title Only]",
+      "[Next Review Date]",
+      "[Step description — begin with action verb]",
+      "[Condition]",
+      "[Action]",
+      "[Responsible Role]",
+      "[Vendor or system name — see Section 11]",
+      "[Form name and number — see Section 11]"
+    ]
+  }
+}
