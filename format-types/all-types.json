@@ -1,0 +1,66 @@
+{
+  "instruction": "Identify the correct format type before writing or revising any document. The 10-section SOP framework is the default for Format Type 1. Types 2 through 5 use adapted structures described below.",
+  "format_types": [
+    {
+      "type": 1,
+      "name": "Step-by-Step Procedure",
+      "use_when": "The process has a defined sequence of actions, each assigned to a role, using specific tools or systems.",
+      "structure": "Full 10-section SOP framework.",
+      "examples": ["Program registration process", "Facility opening and closing", "Work order intake", "Grant application submission"],
+      "output_notes": []
+    },
+    {
+      "type": 2,
+      "name": "Decision-Support",
+      "use_when": "Staff must make a judgment call under dynamic or variable conditions. The document tells staff how to decide, not just how to act.",
+      "structure": "Sections 0 (header), 1 (summary), 2 (purpose), 3 (scope), 5 (roles), then a Scenarios section organized by trigger condition with threshold-based if/then guidance, followed by Sections 7 (safety), 8 (records), 9 (review), 10 (related documents), 11 (operational references). The Scenarios section replaces Section 6 (procedures) for this format type.",
+      "scenarios_section_rules": [
+        "Organize by situation type, not by sequential steps.",
+        "Each scenario block includes: trigger condition, decision threshold, who decides, decision deadline, and notification chain."
+      ],
+      "examples": ["Weather closure decisions", "Incident escalation", "Emergency response protocols", "Capacity and cancellation decisions"],
+      "output_notes": [
+        "Organize the Scenarios section by trigger condition, not by step number.",
+        "Use a threshold table where possible: Condition | Threshold | Decision | Deadline | Who Decides.",
+        "Decision points must state the deadline for the decision as well as the action (e.g., 'Closure decision no later than 8 a.m.')",
+        "Include the notification chain for each scenario outcome."
+      ]
+    },
+    {
+      "type": 3,
+      "name": "Phased/Milestone",
+      "use_when": "The process unfolds across multiple phases over time, with defined outputs and prerequisites at each stage.",
+      "structure": "Sections 0 through 5, then a Phases section (replacing Section 6) where each phase has a purpose statement, prerequisites, key actions, expected outputs, and handoff criteria. Followed by Sections 7 through 11.",
+      "examples": ["CIP project lifecycle", "Activity guide production cycle", "Event planning from concept to post-event", "Grant application through close-out"],
+      "output_notes": [
+        "Each phase block includes: Phase name, trigger or prerequisite, key actions, expected outputs, and handoff to next phase.",
+        "A phase prerequisite table at the start of each phase clarifies what must be complete before the phase begins."
+      ]
+    },
+    {
+      "type": 4,
+      "name": "Communication Protocol",
+      "use_when": "The process defines what to say, to whom, and through which channels when a specific trigger occurs.",
+      "structure": "Section 0 (header), trigger definition, chain of command, approved text or messaging framework, channels and distribution list, operating procedure for execution, records requirements.",
+      "examples": ["Incident notification to City Risk Management", "Media inquiry routing to PIO", "Weather closure public announcement", "Donor acknowledgment"],
+      "output_notes": [
+        "Approved text is presented in a clearly labeled block, formatted for direct use: [APPROVED TEXT — copy as written].",
+        "Channels are listed with primary and backup options.",
+        "The chain of command states who must approve before text is released."
+      ],
+      "caution": "Do not convert an existing communication protocol from another department into a Recreation and Parks SOP without user confirmation."
+    },
+    {
+      "type": 5,
+      "name": "Job Aid/Checklist",
+      "use_when": "The task is narrow, repetitive, and best served by a scannable reference rather than a narrative procedure.",
+      "structure": "Title block (SOP number, division, date, version), purpose in one sentence, audience, numbered or checkbox steps, Operational References block. Full 10-section structure is not required.",
+      "examples": ["Supply ordering", "Vehicle pre-trip inspection", "Printer maintenance", "Seasonal setup checklist"],
+      "output_notes": [
+        "Fit to one or two pages. No narrative beyond the purpose statement.",
+        "Use checkbox format for steps where practical.",
+        "Operational References block is included even in short job aids."
+      ]
+    }
+  ]
+}
