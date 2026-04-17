@@ -1,0 +1,128 @@
+{
+  "checklist": "Quality Check — Run after every SOP output",
+  "instruction": "After producing any SOP, automatically run the following internal check and show the results to the user as a brief Quality Check block at the end. For Mode [B] REVISE, also produce a What Changed summary table.",
+  "categories": [
+    {
+      "name": "Clarity",
+      "items": [
+        "Every step uses active voice and says who does what.",
+        "No jargon is used without being defined.",
+        "Decision points use If/Then language.",
+        "Scenario sections (Format Type 2) include trigger, threshold, decision deadline, and notification chain."
+      ]
+    },
+    {
+      "name": "Completeness",
+      "items": [
+        "All required sections are present or marked 'Not applicable.'",
+        "All roles are named by job title, not by person.",
+        "All referenced forms, systems, and documents are named.",
+        "A 'Will NOT Apply To' exclusions list appears in Section 3.",
+        "A Distribution List appears in Section 0.",
+        "An Operational References block (Section 11) is present.",
+        "If this is a child SOP, the parent SOP is listed in Section 0 and Section 10."
+      ]
+    },
+    {
+      "name": "Reference Integrity",
+      "items": [
+        "No policy numbers, AR citations, or COMAR references appear unless confirmed by the user.",
+        "All unverified references are marked [VERIFY BEFORE PUBLISHING].",
+        "All [ASSUMPTION] tags are clearly shown.",
+        "No CAPRA citations appear unless confirmed by the user.",
+        "All system or software names match names listed in the Division Reference, or are flagged [VERIFY BEFORE PUBLISHING].",
+        "Civic and parliamentary terminology is correct (Robert's Rules of Order, Open Meetings Act, etc.)."
+      ]
+    },
+    {
+      "name": "Division and Structure Accuracy",
+      "items": [
+        "The division name matches one of the five official division names exactly.",
+        "No cost center name is used as a division name.",
+        "An SOP number has been assigned using the numbering convention, and it matches the correct area code."
+      ]
+    },
+    {
+      "name": "Fiscal Year Accuracy",
+      "items": [
+        "Any fiscal year references describe the City fiscal year correctly as running July 1 through June 30.",
+        "No document describes the fiscal year as beginning in October or any other non-July month."
+      ]
+    },
+    {
+      "name": "Operational References",
+      "items": [
+        "All vendor contacts, equipment IDs, system paths, form locations, and staff routing details appear in Section 11, not embedded in procedure steps.",
+        "Every entry in the Operational References block has a Verify When trigger.",
+        "Procedure steps reference Section 11 items by label only."
+      ]
+    },
+    {
+      "name": "Contact Data",
+      "items": [
+        "No personal phone numbers appear anywhere in the SOP body.",
+        "No personal email addresses appear anywhere in the SOP body.",
+        "All contact routing uses role-based methods."
+      ]
+    },
+    {
+      "name": "PII and Participant Data",
+      "items": [
+        "No participant names, contact information, or health data appear anywhere in the SOP, including in embedded screenshots or illustrative examples."
+      ]
+    },
+    {
+      "name": "Style (Rockville Grammar and Writing Guide)",
+      "items": [
+        "'City' is only capitalized as part of 'City of Rockville.'",
+        "Department and facility names are spelled correctly and fully.",
+        "No em dashes used.",
+        "Numbers follow City style rules.",
+        "Times follow City style rules (4 p.m., noon, not 12 p.m.).",
+        "No emojis appear anywhere in the output.",
+        "No highlighted or color-coded text used for emphasis."
+      ]
+    },
+    {
+      "name": "Shelf Life",
+      "items": [
+        "No personal names appear anywhere in the SOP body.",
+        "No specific budget dollar amounts appear.",
+        "No annual performance targets or fiscal-year-specific objectives appear.",
+        "No equipment serial numbers are embedded in procedure steps (they belong in Section 11).",
+        "No software-specific navigation paths appear without a [NOTE: Verify these steps when software is updated.] flag.",
+        "No external URLs are embedded in procedure steps (they belong in Section 11 with a Verify When trigger).",
+        "The SOP will still make sense if a staff member leaves, a device is replaced, or a system path changes."
+      ]
+    },
+    {
+      "name": "Readiness for Use",
+      "items": [
+        "Would a new staff member understand this without prior context?",
+        "Is there anything a supervisor would need to explain verbally that should instead be written down here?"
+      ]
+    }
+  ],
+  "what_changed_table": {
+    "instruction": "Produce this table after every Mode [B] REVISE output.",
+    "columns": ["Section", "Change Made", "Reason"],
+    "examples": [
+      {
+        "section": "Section 0",
+        "change": "Removed personal names from author field, replaced with job titles",
+        "reason": "Shelf Life"
+      },
+      {
+        "section": "Section 3",
+        "change": "Added 'Will NOT Apply To' exclusions list",
+        "reason": "Missing from original"
+      },
+      {
+        "section": "Section 11",
+        "change": "Created Operational References block; moved vendor contact and equipment ID from Section 6",
+        "reason": "Operational specifics belong in Section 11"
+      }
+    ]
+  },
+  "closing_prompt": "After the quality check, ask: 'Would you like me to fix anything, add a Quick Reference version, generate an anticipated FAQ, or produce a review reminder workflow?'"
+}
