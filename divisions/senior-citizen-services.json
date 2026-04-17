@@ -1,0 +1,112 @@
+{
+  "division": "Senior Citizen Services Division",
+  "areas": [
+    {
+      "name": "Senior Center Programming and Membership",
+      "cost_centers": ["Senior Center Operations", "Senior Citizen Recreation", "Senior Citizen Sports and Fitness"],
+      "key_roles": [
+        "Senior Services Manager",
+        "Senior Recreation Supervisor",
+        "Sports and Fitness Supervisor",
+        "Program Specialists",
+        "Program Assistant"
+      ],
+      "context": "The Rockville Senior Center is a large facility serving adults age 60 and above. Programming spans fitness, recreation, education, arts, health and wellness, and social engagement.",
+      "common_processes": [
+        "Membership enrollment and renewal",
+        "Program registration via CivicRec",
+        "Trip planning and registration",
+        "Fitness class scheduling",
+        "Health and wellness screening coordination",
+        "Emergency response for medical and behavioral events"
+      ],
+      "key_considerations": [
+        "ADA accessibility for all programs and facilities",
+        "Communication accessibility",
+        "Emergency protocols designed for older adult populations",
+        "Coordination with Rockville Seniors Inc. and the Rockville Commission on Aging"
+      ],
+      "format_note": "Medical and behavioral emergency response at the Senior Center is Format Type 2 (Decision-Support)."
+    },
+    {
+      "name": "Villages Program (Aging in Place)",
+      "cost_centers": [],
+      "key_roles": [
+        "Villages Facilitator",
+        "Aging in Place Coordinator",
+        "Outreach Workers"
+      ],
+      "context": "Links residents age 60 and above to neighborhood volunteers who assist with tasks enabling aging in place. The program operates through established neighborhood Village chapters and continues to expand into new neighborhoods.",
+      "common_processes": [
+        "Neighborhood volunteer recruitment and training",
+        "Resident intake and needs assessment",
+        "Volunteer-to-resident matching",
+        "Service request intake and tracking",
+        "Villages chapter governance support",
+        "Partner coordination",
+        "Annual engagement reporting"
+      ],
+      "key_considerations": [
+        "Volunteer background screening [VERIFY BEFORE PUBLISHING]",
+        "Liability for volunteer activities in private residences [VERIFY BEFORE PUBLISHING — confirm with City Risk Management]",
+        "Confidentiality of resident information",
+        "Mandatory reporter obligations [VERIFY BEFORE PUBLISHING]",
+        "Adult Protective Services referral protocols [VERIFY BEFORE PUBLISHING]"
+      ]
+    },
+    {
+      "name": "Senior Transportation Services",
+      "cost_centers": ["Part of Senior Citizen Support Services"],
+      "key_roles": [
+        "Fleet Supervisor",
+        "Bus Drivers"
+      ],
+      "context": "CDL-licensed drivers provide passenger transportation in City-owned vehicles, primarily to senior programs, medical appointments, and community activities.",
+      "common_processes": [
+        "Route scheduling",
+        "Trip request intake",
+        "Boarding assistance",
+        "ADA lift operation",
+        "Trip logs",
+        "Incident reporting",
+        "Driver license and medical certificate tracking"
+      ],
+      "key_considerations": [
+        "See Fleet Services entry in Parks and Facilities Maintenance Division for full compliance context."
+      ]
+    },
+    {
+      "name": "Senior Outreach and Assistance Services",
+      "cost_centers": ["Senior Assistance Fund", "Senior Citizen Support Services"],
+      "key_roles": [
+        "Support Services Supervisor",
+        "Administrative Assistant",
+        "Outreach Workers",
+        "Aging in Place Coordinator"
+      ],
+      "context": "Outreach Workers conduct community visits and connect seniors to services. The Senior Assistance Fund provides financial support to eligible seniors. A Mobile Market partnership with the Capital Area Food Bank serves seniors at the center.",
+      "common_processes": {
+        "outreach": [
+          "Community site visits",
+          "Mobile Market coordination",
+          "Referral to social services",
+          "Benefits enrollment assistance",
+          "Language access support for non-English-speaking participants"
+        ],
+        "assistance_fund": [
+          "Application intake",
+          "Eligibility review",
+          "Award processing",
+          "Fund balance monitoring",
+          "Donor coordination with the Rockville Recreation and Parks Foundation"
+        ]
+      },
+      "key_considerations": [
+        "HIPAA considerations for health-related referrals [VERIFY BEFORE PUBLISHING]",
+        "Language access requirements [VERIFY BEFORE PUBLISHING — confirm City language access policy]",
+        "Mandatory reporter obligations [VERIFY BEFORE PUBLISHING]",
+        "Coordination with Montgomery County Aging and Disability Services [VERIFY BEFORE PUBLISHING]"
+      ]
+    }
+  ]
+}
