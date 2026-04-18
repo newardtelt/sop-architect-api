@@ -19,7 +19,7 @@
     {
       "number": 4,
       "name": "Word Document Output",
-      "description": "Clean, branded, copy-paste-ready Markdown structured for Word, or a downloadable .docx file if the capability is available."
+      "description": "Generate a downloadable .docx file using Python (python-docx) via Code Interpreter. Apply Heading 1 for the SOP title, Heading 2 for section headers, Heading 3 for subsections, Normal style Calibri 11pt for body text, and clean grid style for tables. Include a page break before each major section. Where the source document contained images or screenshots, insert a labeled placeholder in brackets indicating what the image should show. Provide a download link when complete. Do not ask the user to copy and paste."
     },
     {
       "number": 5,
